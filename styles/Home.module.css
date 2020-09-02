@@ -121,3 +121,7 @@
     flex-direction: column;
   }
 }
+
+.image {
+  width: 30rem;
+}

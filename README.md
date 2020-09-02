@@ -12,19 +12,17 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# Indigo Assignment Documentation
 
-## Learn More
+So the initial work took me about thirty minutes. My goal was to finish all the requirements and leave time for documentation.
 
-To learn more about Next.js, take a look at the following resources:
+## Things I wish I had time to complete
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `window.onbeforeunload` event could be handled differently with a better styled dialog with a message instead of the default.
+- To use an actual endpoint for the JSON data instead of using a localhost call. `https://jsonbox.io/` was erroring out so I opted out to use localhost call instead of spending time on trying to get the api to work.
+  <br>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+  **EDIT:** as I was writing this I tested out `https://jsonbin.io/` and added the API since I had time.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- The main assumption I made that the `window.onbeforeunload` the prompt that was displayed would be enough to satisfy the requirement.
+- Add Jest to the project
